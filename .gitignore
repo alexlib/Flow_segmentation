@@ -1,0 +1,9 @@
+
+GroundingDINO/
+Demo/Fingers_masks.mat
+*.pyc
+*.pyc
+Scripts/__pycache__/Save_masks.cpython-310.pyc
+Scripts/__pycache__/Flow_segmentation.cpython-310.pyc
+segment-anything/
+supervision/
