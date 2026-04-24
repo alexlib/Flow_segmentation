@@ -8,7 +8,7 @@ This is the official repository for "Segment Anything in Flow Experiments".
 <a href="https://colab.research.google.com/github/AliRKhojasteh/Flow_segmentation/blob/main/dynamic_SAM2/video_predictor_colab.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab -- dynamic" width="150"/>
 </a>
-<img src="dynamic_SAM2/preview.gif" width="800">
+<img src="dynamic_SAM2/preview.jpg" width="800">
 
 See [`dynamic_SAM2/`](dynamic_SAM2/) for the code, the Colab notebook, and a local-run bootstrap that handles Windows, Linux, macOS, and CPU/GPU/MPS automatically.
 
