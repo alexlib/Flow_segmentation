@@ -4,11 +4,13 @@ This is the official repository for "Segment Anything in Flow Experiments".
 
 ## News
 
-- 2026.04.24: Dynamic version released (SAM 2 video propagation)
+- 2026.04.24: Dynamic version released -- one-click mask propagation across time-resolved PIV / PTV sequences.
 <a href="https://colab.research.google.com/github/AliRKhojasteh/Flow_segmentation/blob/main/dynamic_SAM2/video_predictor_colab.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab -- dynamic" width="150"/>
 </a>
-See [`dynamic_SAM2/`](dynamic_SAM2/) for the full code and the one-click Colab notebook.
+<img src="dynamic_SAM2/preview.jpg" width="800">
+
+See [`dynamic_SAM2/`](dynamic_SAM2/) for the code, the Colab notebook, and a local-run bootstrap that handles Windows, Linux, macOS, and CPU/GPU/MPS automatically.
 
 - 2024.04.15: First release 
 <a href="https://colab.research.google.com/github/AliRKhojasteh/Flow_segmentation/blob/main/Notebooks/Flow_segmentation.ipynb" target="_blank">
