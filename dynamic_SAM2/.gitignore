@@ -1,0 +1,34 @@
+# Model weights are auto-downloaded on first run; do not commit them.
+checkpoints/*.pt
+
+# Generated mask pickles
+pkl/*.pickle
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Partial copy leftovers
+.*.tmp
+.*.part
+
+# Virtual envs & editors
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+
+# Runtime
+outputs/
+*.log

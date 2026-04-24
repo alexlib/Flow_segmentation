@@ -4,6 +4,12 @@ This is the official repository for "Segment Anything in Flow Experiments".
 
 ## News
 
+- 2026.04.24: Dynamic version released (SAM 2 video propagation)
+<a href="https://colab.research.google.com/github/AliRKhojasteh/Flow_segmentation/blob/main/dynamic_SAM2/video_predictor_colab.ipynb" target="_blank">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab -- dynamic" width="150"/>
+</a>
+See [`dynamic_SAM2/`](dynamic_SAM2/) for the full code and the one-click Colab notebook.
+
 - 2024.04.15: First release 
 <a href="https://colab.research.google.com/github/AliRKhojasteh/Flow_segmentation/blob/main/Notebooks/Flow_segmentation.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="150"/>
