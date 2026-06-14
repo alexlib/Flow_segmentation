@@ -1,0 +1,23 @@
+# torch and torchvision are installed separately by setup_env.py so the
+# right wheel is picked for each machine (CUDA on Win/Linux, MPS on Mac).
+# Do NOT list them here, or pip might downgrade the CUDA wheel to the
+# default CPU build.
+
+# SAM 2 supporting libs
+hydra-core>=1.3
+omegaconf>=2.3,<2.4
+iopath>=0.1.10
+huggingface_hub>=0.24
+
+# Image / video IO and visualisation
+numpy>=1.24
+pillow>=10.0
+opencv-python>=4.8
+matplotlib>=3.7
+ipympl>=0.9          # needed for the %matplotlib widget backend in add_remove.ipynb
+tqdm>=4.66
+
+# Jupyter (only needed if the user opens the notebooks)
+jupyterlab>=4.0
+notebook>=7.0
+ipykernel>=6.25
